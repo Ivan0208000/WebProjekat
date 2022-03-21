@@ -1,0 +1,122 @@
+.kontForma
+{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    order:initial;
+    justify-content: space-around;
+    border: 1px solid black;
+    min-height: 220px;
+}
+
+.formaGost
+{
+    flex-direction: column;
+    display: flex;
+    
+   
+}
+.kontSobe
+{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    order:initial;
+   
+}
+.divSobe
+{
+     flex-direction: column; 
+    
+}
+.kontUpravljanje
+{
+   flex-direction: column; 
+   display: flex;
+}
+.zadugmici
+{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    
+   
+}
+.oboji
+{
+    border: 1px solid black;
+    margin: 5px;
+    width: 120px;
+    height: 100px;
+    
+    display: flex;
+    
+
+}
+.sobeCrtanje{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-items: center;
+    justify-content:center;
+}
+.kontRacun
+{
+    display: flex;
+    flex-direction: row;
+    border:1px solid black
+    
+}
+body
+{
+    background-image: url("istockphoto-1307794659-170667a.jpg");
+}
+.dugmiciSoba
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+   
+}
+
+.miniSobaKont
+{
+    border: 1px solid black;
+    margin: 10px;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+}
+.crtanjeRacuna
+{
+    display: flex;
+    flex-direction: column;
+}
+.miniGraf
+{
+    border: 1px solid black;
+    margin: 2px;
+    height: 45px;
+    background-color: burlywood;
+    flex-grow:1;
+ 
+    
+    
+}
+.crtanjeGrafa
+{
+   
+    
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-items: baseline;
+    justify-content:first baseline;
+   
+}
+.font1
+{
+   
+    font-size: 12px;
+}
